@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaitanya | UX Designer</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <nav aria-label="Main navigation">
+        <div class="logo">
+          <a href="#home" class="logo-text">Chaitanya</a>
+        </div>
+
+        <div id="primary-nav" class="nav-action">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <a href="#contact" class="contact-btn">Contact</a>
+        </div>
+
+        <button
+          type="button"
+          class="menu-toggle"
+          id="hamburger"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section" id="home" aria-labelledby="hero-heading">
+        <div class="hero-content" id="hero-content">
+          <p class="hero-title">UX DESIGNER · HUMAN-CENTERED DESIGN</p>
+          <h1 class="hero-heading" id="hero-heading">
+            Hi, I'm <span class="highlight">Chaitanya.</span>
+          </h1>
+          <p class="hero-description">
+            I design thoughtful, human-centered digital experiences that make
+            complex problems easier to understand and solve.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <!-- <div class="hero-image">
+          <img
+            src="./images/DSC08880.jpg"
+            alt="Portrait of Chaitanya, UX designer"
+          />
+        </div> -->
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-heading">
+        <div class="about-content">
+          <p class="about-title">A little about me</p>
+          <h2 class="about-heading" id="about-heading">
+            Designing with people in mind.
+          </h2>
+          <p class="about-description">
+            I'm a UX designer interested in turning complex problems into clear,
+            useful digital experiences. My approach combines understanding user
+            needs, thoughtful interaction design, and purposeful visual
+            communication.
+          </p>
+          <p class="about-description">
+            I'm particularly interested in fintech experiences and automotive
+            UX, where clear information and intuitive interactions can make a
+            real difference.
+          </p>
+        </div>
+
+        <div class="skills-block">
+          <p class="skills-label">MY TOOLKIT</p>
+          <h3 class="skills-heading">Skills I bring to the process.</h3>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h4>UX Research &amp; Synthesis</h4>
+              <ul class="skill-list">
+                <li>Competitor Analysis</li>
+                <li>UX Audits</li>
+                <li>User Journey Mapping</li>
+                <li>Insight Synthesis</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h4>Interaction Design</h4>
+              <ul class="skill-list">
+                <li>User Flows</li>
+                <li>Information Architecture</li>
+                <li>Wireframing</li>
+                <li>Interaction Design</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h4>UI &amp; Visual Design</h4>
+              <ul class="skill-list">
+                <li>Visual Hierarchy</li>
+                <li>Typography &amp; Layout</li>
+                <li>Design Systems</li>
+                <li>Responsive UI</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h4>Prototyping &amp; Tools</h4>
+              <ul class="skill-list">
+                <li>Figma</li>
+                <li>FigJam</li>
+                <li>Interactive Prototyping</li>
+                <li>Design Documentation</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="projects" aria-labelledby="work-heading">
+        <div class="work-content">
+          <p class="work-label">Selected work</p>
+          <h2 class="work-heading" id="work-heading">A selection of my work.</h2>
+          <p class="work-description">
+            Exploring meaningful digital experiences through research,
+            interaction design, and thoughtful visual design.
+          </p>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <a
+                href="#"
+                class="project-image-link"
+                aria-label="View AV Takeover Interface case study"
+              >
+                <img
+                  src="./images/Automated Driving Takeover Interface.png"
+                  alt="Automotive instrument cluster interface displaying a Level 3 automated-driving takeover request"
+                  class="project-image"
+                />
+              </a>
+              <p class="project-category">Automotive UX · HMI Design</p>
+              <h3 class="project-title">
+                Designing the Level 3 Takeover Experience
+              </h3>
+              <p class="project-description">
+                A concept UX case study exploring how drivers can understand and
+                respond to takeover requests in Level 3 automated vehicles through
+                clear, timely, and context-aware cockpit communication.
+              </p>
+              <a href="#" class="project-link">
+                View case study <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+
+            <article class="project-card">
+              <a
+                href="#"
+                class="project-image-link"
+                aria-label="View UniPay case study"
+              >
+                <img
+                  src="./images/unipay.png"
+                  alt="UniPay currency exchange and money transfer app interface"
+                  class="project-image"
+                />
+              </a>
+              <p class="project-category">FinTech · Mobile App Design</p>
+              <h3 class="project-title">
+                Simplifying Currency Exchange and Transfers
+              </h3>
+              <p class="project-description">
+                A FinTech app concept designed to make currency exchange and money
+                transfers easier to understand through a clear and intuitive
+                mobile experience.
+              </p>
+              <a href="#" class="project-link">
+                View case study <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+
+            <article class="project-card">
+              <a
+                href="#"
+                class="project-image-link"
+                aria-label="View Flow case study"
+              >
+                <img
+                  src="./images/flow.png"
+                  alt="Flow personal finance and budgeting app interface"
+                  class="project-image"
+                />
+              </a>
+              <p class="project-category">FinTech · Personal Finance</p>
+              <h3 class="project-title">
+                Making Personal Finance Easier to Manage
+              </h3>
+              <p class="project-description">
+                A personal finance and budgeting app concept focused on helping
+                users understand their spending, organize their finances, and make
+                more informed financial decisions.
+              </p>
+              <a href="#" class="project-link">
+                View case study <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
